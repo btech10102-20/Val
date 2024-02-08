@@ -64,7 +64,7 @@ const HomePage = () => {
         case 7:
           return ( 
             <div>
-              Fir No click tu<br />
+              Fir NO click ki tu<br />
               ಠ╭╮ಠ
             </div>
           );
