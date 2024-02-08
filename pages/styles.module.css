@@ -27,7 +27,7 @@
 .buttonyes {
     transition: transform 0.3s ease-in-out;
     position: fixed;
-    font-family: 'monolog', sans-serif;
+    font-family: 'Gopher', sans-serif;
     font-weight: bolder;
     top: 65%;
     left: 38%;
@@ -47,7 +47,7 @@
   .buttonno {
     position: fixed;
     transform: translateX(50%);
-    font-family: 'monolog', sans-serif;
+    font-family: 'Gopher', sans-serif;
     font-weight: bolder;
     top: 65%;
     right: 41%;
