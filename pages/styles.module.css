@@ -114,6 +114,11 @@
     color: #fc97a5;
   }
 
+    .noteImage {
+    margin-Left: 20%;
+    margin-Bottom: 15px;
+  }
+
   .tc {
     font-family: 'Gopher', sans-serif;
     font-size: 10px;
