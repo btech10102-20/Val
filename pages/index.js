@@ -135,7 +135,7 @@ const HomePage = () => {
         <br/>
         </p>
         <div>
-          <Image src={"/static/kiss.gif"} alt="XOXO" width={300} height={300} />
+          <Image src={"/static/kiss.gif"} alt="XOXO" width={300} height={300} alt="XOXO" width={300} height={300} style={{ marginLeft: '20%', marginBottom: '15px' }} />
         </div>
         <p className={styles.tc}>
           *T&C: Buy me PS5
