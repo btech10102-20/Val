@@ -93,9 +93,7 @@
     }
   }
 
-  .paragraphContainer {
-    margin-left: 20%;
-    margin-right: 20%;
+  .paragraphContainer { 
     margin-top: 5%;
   }
   
@@ -103,22 +101,28 @@
     font-family: 'Gopher', sans-serif;
     font-size: 40px;
     margin-top: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
     color: #1d1d1f;
   }
   
   .dearPookie {
     font-family: 'GopherB', sans-serif;
     font-size: 80px;
+    margin-left: 20%;
+    margin-right: 20%;
     color: #fc97a5;
   }
 
   .tc {
     font-family: 'Gopher', sans-serif;
     font-size: 10px;
-    position: absolute;
-    left: 50%;
-    top: 165%;
-    transform: translate(-50%, -50%)
+    margin-left: 50%;
+    padding: auto;
+    background-color: rgba(250, 77, 100, 0.7);
+    width: 100%;
+    transform: translateX(-50%);
+    text-align: center;
   }
 
   .italics {
@@ -128,7 +132,7 @@
   @media (max-width: 600px) {
     .paragraph {
       font-size: 20px; 
-      margin-top: 10%;
+      margin-top: 5%;
     }
   
     .dearPookie {
@@ -147,10 +151,6 @@
     .heart {
       top: 50%;
       left: 50%;
-    }
-
-    .tc {
-      bottom: -50%;
     }
 
     .heading {
