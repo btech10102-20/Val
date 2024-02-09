@@ -28,7 +28,7 @@ const HomePage = () => {
 
   const handleButtonClick = (option) => {
     if (option === 'no') {
-      setScaleFactor((prevFactor) => prevFactor + 0.5);
+      setScaleFactor((prevFactor) => prevFactor + 0.4);
       setClickedNo((prevClick) => prevClick + 1);
       setYesButtonLeft((prevLeft) => prevLeft - 0.5);
       setYesButtonTop((prevTop) => prevTop + 0.4);
