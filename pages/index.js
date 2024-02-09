@@ -64,7 +64,7 @@ const HomePage = () => {
         case 7:
           return ( 
             <div>
-              Fir NO click ki tu<br />
+              Fir No click tu<br />
               ಠ╭╮ಠ
             </div>
           );
@@ -130,15 +130,15 @@ const HomePage = () => {
         Khair this is to inform you that Valentine’s Day aa raha hai <span className={styles.italics}>(fyi it’s a celebration of love and affection)</span> and since you clicked yes <span className={styles.italics}>(I made you)</span> you have now agreed to the terms and conditions* of you being my Valentine.
         <br/>
         <br/>
-        Ye lo tumhara gift : <span className={styles.italics}>-/Technical error/ Myntra walo ne tracking link share nhi ki -/Mill jaaega dw/.</span>
+        Ye lo tumhara gift : <span className={styles.italics}>-/Technical error/ Myntra walo ne tracking link share nhi ki. -/Mill jaaega dw/</span>
         <br/>
         <br/>
         </p>
         <div>
-          <Image className={styles.noteImage} src={"/static/kiss.gif"} alt="XOXO" width={300} height={300} alt="XOXO" width={300} height={300}/>
-        <p className={styles.tc}>
+          <Image className={styles.noteImage} src={"/static/kiss.gif"} alt="XOXO" width={300} height={300}/>
+        <h3 className={styles.tc}>
           *T&C: Buy me PS5
-        </p>
+        </h3>
         </div>
         </div>
       ) : (
